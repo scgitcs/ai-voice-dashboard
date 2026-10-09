@@ -1,0 +1,18 @@
+
+# Dependencies and build files
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/serviceAccountKey.json
+**/*service-account*.json
+**/*firebase-adminsdk*.json
+
+# Logs and local files
+npm-debug.log*
+.DS_Store
